@@ -1,5 +1,7 @@
 # Copy & Paste These Commands in Terminal
 
+### 🔹 **Frontend Dependencies**
+
 ```bash
 npm install
 ```
@@ -40,7 +42,6 @@ npm install clsx tailwind-merge
 npm install -D tailwindcss postcss autoprefixer
 ```
 
----
 
 # Project Setup Guide
 
