@@ -22,8 +22,10 @@ const Header = () => {
 
      return (
           <header className="flex items-center justify-between w-full p-3 bg-amber-200">
-               <Link to="/" className="font-semibold">Trustify</Link>
-
+               <a href="/getstarted" aria-label="Jerry AI" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="../../public/jerrylogo.svg" class="w-8 h-8" alt="" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Jerry</span>
+               </a>
                <nav className="hidden md:flex gap-4">
                     {navLinks.map((link) => {
                          const Icon = link.icon;
